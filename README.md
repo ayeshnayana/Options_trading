@@ -7,9 +7,9 @@ For this project, we're going to build an investing strategy that picks up optio
 # Library Imports
 Import pandas for the dataframe and request to retrieve data from the sandbox api. After creating the config file with your data import it as well. For this you need to save the file in the same directory.
 Import the following libraries:
-requests
-pandas
-numpy
+#requests
+#pandas
+#numpy
 
 # Option analysis
 After storing the option information into the dataframe we sort them by the highest change_precentatge of the option premium. In tradier.com the implied volatility is not provided at least in the free account. If you happen to know some other site which provides the implied volatility please let me know as well.
