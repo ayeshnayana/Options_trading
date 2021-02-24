@@ -13,3 +13,6 @@ Import the following libraries:
 
 # Option analysis
 After storing the option information into the dataframe we sort them by the highest change_precentatge of the option premium. In tradier.com the implied volatility is not provided at least in the free account. If you happen to know some other site which provides the implied volatility please let me know as well.
+
+# Creating a Data Frame using the stock quotes
+The data obtained for the stocks are filtered into averages and their standard deviations. The options data should be compared with historic averages, maximum and minimum quotes of the specific stock. In the descrpition_dataframe we find the daily average of the high prices and low prices. Then their standard deviations are also calculated. Maximum high value and the minimum low value is also filtered out. Any option strike which is higher than the maximum high and minimum low must be proceed with extra DD.
